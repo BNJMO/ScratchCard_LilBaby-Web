@@ -1115,9 +1115,9 @@ export class Card {
       : null;
     if (frameSprite) {
       frameSprite.anchor.set(0.5);
-      frameSprite.position.set(tileSize / 2, (tileSize - 8) / 2);
+      frameSprite.position.set(tileSize / 2, (tileSize - 14) / 2);
       frameSprite.width = tileSize + 24;
-      frameSprite.height = tileSize + 8;
+      frameSprite.height = tileSize + 10;
       frameSprite.alpha = 0;
       frameSprite.visible = false;
     }
